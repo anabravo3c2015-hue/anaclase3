@@ -1,0 +1,50 @@
+def compatibilidad_de_amor(dia1, mes1, dia2, mes2):
+    fecha1 = str(dia1) + str(mes1)
+    fecha2 = str(dia2) + str(mes2)
+
+    suma = 0
+
+    for digito in fecha1:
+        suma = suma + int(digito)
+    
+    for digito in fecha2:
+        suma = suma + int(digito)
+    
+    while suma >9 and suma != 11 and suma != 22
+        aux = 0
+        for digito in str(suma):
+            aux = aux + int(digito)
+            suma = aux
+    if suma == 11:
+        return "Número 11 (Conexión Kármica y Evolución): Pareja con una fuerte unión espiritual y psíquica. Están destinados a inspirar a otros, pero enfrentan pruebas emocionales extremas y crisis frecuentes para poder evolucionar."
+
+    elif suma == 22:
+        return "Número 22 (Grandes Proyectos de Vida): Unión con un potencial ilimitado para construir imperios materiales o proyectos humanitarios globales. El desafío es la alta exigencia mutua y el estrés que genera tanta responsabilidad."
+
+    elif suma == 1:
+        return "Número 1 (Liderazgo e Independencia): Una pareja competitiva y dinámica. Impulsan el crecimiento del otro, pero deben cuidar el egoísmo, la lucha de poder y la falta de confianza."
+
+    elif suma == 2:
+        return "Número 2 (Unión y Cooperación): Relación romántica, empática y llena de ternura. Buscan el equilibrio mutuo, aunque corren el riesgo de caer en celos ocultos, codependencia o dudas constantes."
+
+    elif suma == 3:
+        return "Número 3 (Comunicación y Diversión): Unión alegre, sociable y muy creativa. Disfrutan viajar y compartir con amigos. Su mayor desafío es la inmadurez, la falta de estabilidad y evitar conversaciones serias."
+
+    elif suma == 4:
+        return "Número 4 (Estabilidad y Estructura): Una pareja sólida, organizada y enfocada en construir un futuro económico seguro. El peligro es caer en la monotonía, la terquedad, la rutina aburrida y la falta de espontaneidad."
+
+    elif suma == 5:
+        return "Número 5 (Libertad y Aventura): Relación apasionada, flexible y llena de cambios constantes. Odian la rutina, pero les cuesta establecer compromisos a largo plazo y pueden caer en la inestabilidad emocional."
+
+    elif suma == 6:
+        return "Número 6 (Hogar y Familia): Vínculo protector, armónico y muy enfocado en el bienestar del hogar. Su desafío es el exceso de sobreprotección, la idealización del otro y los celos por inseguridad."
+
+    elif suma == 7:
+        return "Número 7 (Espiritualidad e Intelecto): Conexión mental y mística profunda. Respetan la soledad y el espacio del otro. Corren el riesgo de parecer fríos, aislarse del mundo y analizar en exceso sus sentimientos."
+
+    elif suma == 8:
+        return "Número 8 (Poder y Éxito Material): Pareja ambiciosa que logra grandes metas financieras y proyectos juntos. Deben vigilar que la ambición material o el control absoluto no apaguen el romance y el afecto."
+
+    else:
+        return "Número 9 (Amor Universal y Pasión): Relación intensa, altruista y con un profundo sentido de ayuda a los demás. Al ser tan emocionales, sufren altibajos drásticos, dramas y desilusiones si el otro no cumple sus altas expectativas."
+    
